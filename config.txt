@@ -1,0 +1,18 @@
+SOURCE_FOLDER=/root/scripts/mnt1/wp_devstaff_stage
+DESTINATION_FOLDER=/root/scripts/mnt/dest_dir
+BACKUP_FOLDER=/root/scripts/mnt/backup_dir
+WORKING_DIRECTORY=/root/scripts/mnt/working_dir
+EXCLUSION_FOLDER=wp-admin
+EXCLUSION_FILE=wp-config.php
+#used for sql connection
+MYSQL_HOST_SOURCE=mysql
+MYSQL_DB_SOURCE=wordpress_devstaff_stage
+MYSQL_USER_SOURCE=wpuser_devstaff_stage
+MYSQL_PASS_SOURCE=aSaADaDa#134
+MYSQL_HOST_DESTINATION=mysql
+MYSQL_DB_DESTINATION=wordpress_devstaff_testlive
+MYSQL_USER_DESTINATION=wpuser_devstaff_testlive
+MYSQL_PASS_DESTINATION=AAAasdkfnlakln
+#used for sed
+SOURCE_DOMAIN=stage.devstaff.ca
+DESTINATION_DOMAIN=devstaff.ca
